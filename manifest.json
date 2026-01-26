@@ -1,0 +1,9 @@
+{
+  "id": "timeblock-formatter",
+  "name": "Timeblock Formatter",
+  "version": "1.0.0",
+  "minAppVersion": "0.15.0",
+  "description": "Automatically formats time ranges to HH:MM - HH:MM format on save",
+  "author": "Ryder Cobean",
+  "isDesktopOnly": false
+}

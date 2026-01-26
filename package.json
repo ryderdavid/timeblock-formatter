@@ -1,0 +1,20 @@
+{
+  "name": "timeblock-formatter",
+  "version": "1.0.0",
+  "description": "Automatically formats time ranges to HH:MM - HH:MM format on save",
+  "main": "main.js",
+  "scripts": {
+    "dev": "node esbuild.config.mjs",
+    "build": "node esbuild.config.mjs production",
+    "install-plugin": "./scripts/install.sh"
+  },
+  "keywords": ["obsidian", "plugin", "timeblock"],
+  "author": "Ryder Cobean",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "esbuild": "^0.20.0",
+    "obsidian": "latest",
+    "typescript": "^5.0.0"
+  }
+}
